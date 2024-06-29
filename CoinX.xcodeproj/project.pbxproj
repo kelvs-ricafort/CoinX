@@ -11,6 +11,7 @@
 		B65C1CCB2C2FF89700F12E6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C1CCA2C2FF89700F12E6F /* ContentView.swift */; };
 		B65C1CCD2C2FF89A00F12E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65C1CCC2C2FF89A00F12E6F /* Assets.xcassets */; };
 		B65C1CD02C2FF89A00F12E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65C1CCF2C2FF89A00F12E6F /* Preview Assets.xcassets */; };
+		B65C1CDA2C2FFD5E00F12E6F /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C1CD92C2FFD5E00F12E6F /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B65C1CCF2C2FF89A00F12E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B65C1CD62C2FF96100F12E6F /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		B65C1CD72C2FF98F00F12E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B65C1CD92C2FFD5E00F12E6F /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				B65C1CD72C2FF98F00F12E6F /* Info.plist */,
 				B65C1CC82C2FF89700F12E6F /* CoinXApp.swift */,
 				B65C1CCA2C2FF89700F12E6F /* ContentView.swift */,
+				B65C1CD82C2FFD4600F12E6F /* Model */,
 				B65C1CD62C2FF96100F12E6F /* Config.xcconfig */,
 				B65C1CCC2C2FF89A00F12E6F /* Assets.xcassets */,
 				B65C1CCE2C2FF89A00F12E6F /* Preview Content */,
@@ -69,6 +72,14 @@
 				B65C1CCF2C2FF89A00F12E6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B65C1CD82C2FFD4600F12E6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B65C1CD92C2FFD5E00F12E6F /* Coin.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65C1CDA2C2FFD5E00F12E6F /* Coin.swift in Sources */,
 				B65C1CCB2C2FF89700F12E6F /* ContentView.swift in Sources */,
 				B65C1CC92C2FF89700F12E6F /* CoinXApp.swift in Sources */,
 			);
