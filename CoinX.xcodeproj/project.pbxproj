@@ -19,6 +19,8 @@
 		B65C1CCA2C2FF89700F12E6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B65C1CCC2C2FF89A00F12E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65C1CCF2C2FF89A00F12E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B65C1CD62C2FF96100F12E6F /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B65C1CD72C2FF98F00F12E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		B65C1CC72C2FF89700F12E6F /* CoinX */ = {
 			isa = PBXGroup;
 			children = (
+				B65C1CD72C2FF98F00F12E6F /* Info.plist */,
 				B65C1CC82C2FF89700F12E6F /* CoinXApp.swift */,
 				B65C1CCA2C2FF89700F12E6F /* ContentView.swift */,
+				B65C1CD62C2FF96100F12E6F /* Config.xcconfig */,
 				B65C1CCC2C2FF89A00F12E6F /* Assets.xcassets */,
 				B65C1CCE2C2FF89A00F12E6F /* Preview Content */,
 			);
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		B65C1CD12C2FF89A00F12E6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65C1CD62C2FF96100F12E6F /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +215,7 @@
 		};
 		B65C1CD22C2FF89A00F12E6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65C1CD62C2FF96100F12E6F /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
