@@ -14,6 +14,7 @@
 		B65C1CDA2C2FFD5E00F12E6F /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C1CD92C2FFD5E00F12E6F /* Coin.swift */; };
 		B65C1CDD2C2FFF7E00F12E6F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C1CDC2C2FFF7E00F12E6F /* CoinModel.swift */; };
 		B65C1CE02C3000CA00F12E6F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C1CDF2C3000CA00F12E6F /* DataService.swift */; };
+		B65C1CE22C3007CD00F12E6F /* CoinDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C1CE12C3007CD00F12E6F /* CoinDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B65C1CD92C2FFD5E00F12E6F /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		B65C1CDC2C2FFF7E00F12E6F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		B65C1CDF2C3000CA00F12E6F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B65C1CE12C3007CD00F12E6F /* CoinDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B65C1CD72C2FF98F00F12E6F /* Info.plist */,
 				B65C1CC82C2FF89700F12E6F /* CoinXApp.swift */,
 				B65C1CCA2C2FF89700F12E6F /* ContentView.swift */,
+				B65C1CE12C3007CD00F12E6F /* CoinDetailsView.swift */,
 				B65C1CDE2C3000B300F12E6F /* Service */,
 				B65C1CDB2C2FFF4D00F12E6F /* ViewModel */,
 				B65C1CD82C2FFD4600F12E6F /* Model */,
@@ -178,6 +181,7 @@
 				B65C1CDA2C2FFD5E00F12E6F /* Coin.swift in Sources */,
 				B65C1CCB2C2FF89700F12E6F /* ContentView.swift in Sources */,
 				B65C1CC92C2FF89700F12E6F /* CoinXApp.swift in Sources */,
+				B65C1CE22C3007CD00F12E6F /* CoinDetailsView.swift in Sources */,
 				B65C1CE02C3000CA00F12E6F /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
